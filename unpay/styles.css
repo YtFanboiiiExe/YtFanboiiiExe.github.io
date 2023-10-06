@@ -1,34 +1,34 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+/* ... (existing CSS styles) ... */
+
+.bottom-nav {
+    background-color: #f3f3f3;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0px -1px 5px rgba(0, 0, 0, 0.2);
 }
 
-header {
-    background-color: #0073e6;
-    color: white;
-    text-align: center;
-    padding: 20px;
-}
-
-.app-list, .featured-list {
+.bottom-nav ul {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    padding: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: space-around;
 }
 
-.app-card {
-    border: 1px solid #ccc;
-    padding: 10px;
-    width: 200px;
+.bottom-nav li {
+    flex: 1;
     text-align: center;
+    padding: 10px 0;
 }
 
-footer {
-    background-color: #0073e6;
-    color: white;
-    text-align: center;
-    padding: 10px;
+.bottom-nav a {
+    text-decoration: none;
+    color: #0073e6;
+}
+
+/* Style the active link */
+.bottom-nav a.active {
+    font-weight: bold;
 }
