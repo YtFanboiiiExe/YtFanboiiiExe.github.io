@@ -11,7 +11,7 @@ header {
     padding: 20px;
 }
 
-.app-list {
+.app-list, .featured-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
