@@ -1,68 +1,14 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-header {
+/* Style for the Download Links in All Sections */
+.app-card .download-link {
+    display: block;
     background-color: #0073e6;
     color: white;
-    text-align: center;
-    padding: 20px;
-}
-
-.app-list, .featured-list {
-    display: none; /* Initially hide all app lists */
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    padding: 20px;
-}
-
-.app-card {
-    border: 1px solid #ccc;
-    padding: 10px;
-    width: 200px;
-    text-align: center;
-}
-
-footer {
-    background-color: #0073e6;
-    color: white;
-    text-align: center;
-    padding: 10px;
-}
-
-/* Bottom Navigation */
-.bottom-nav {
-    background-color: #f3f3f3;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    box-shadow: 0px -1px 5px rgba(0, 0, 0, 0.2);
-}
-
-.bottom-nav ul {
-    display: flex;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    justify-content: space-around;
-}
-
-.bottom-nav li {
-    flex: 1;
-    text-align: center;
-    padding: 10px 0;
-}
-
-.bottom-nav a {
     text-decoration: none;
-    color: #0073e6;
+    padding: 5px 10px;
+    margin-top: 10px;
+    border-radius: 5px;
 }
 
-/* Style the active link */
-.bottom-nav a.active {
-    font-weight: bold;
+.app-card .download-link:hover {
+    background-color: #005aa8;
 }
