@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouWeb</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+        }
+
+        #header {
+            background-color: red;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        #features {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            padding: 20px;
+        }
+
+        #download-instructions {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            padding: 20px;
+        }
+
+        h2 {
+            color: red;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        button {
+            padding: 5px 10px;
+            background-color: white;
+            color: red;
+            border: none;
+            cursor: pointer;
+        }
+
+        /* Style for the download button */
+        .download-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #0074D9;
+            color: #fff;
+            text-decoration: none;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        /* Hover effect */
+        .download-button:hover {
+            background-color: #0056A7;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h1>Custom YouTube Tools</h1>
+    </div>
+
+    <div id="documents">
+        <h2>Information</h2>
+        <p>This is a GUI bookmarklet that gives you options for youtube such as unblocking videos and whatnot</p>
+    </div>
+
+    <div id="features">
+        <h2>Features</h2>
+        <p>Download videos (dosent work yet) Unblock videos from school laptop</p>
+    </div>
+
+    <div id="download-instructions">
+        <h2>Download Instructions</h2>
+        <p>Drag the YouWeb button to your bookmarks bar and then click the bookmark when needed</p>
+        <a href="javascript:void function(){(function(){function a(){b=!b,e.style.display=b%3F"block":"none",f.style.display=b%3F"block":"none",g.style.display=b%3F"block":"none"}let b=!1;const c=document.createElement("div");c.id="custom-gui",c.style.position="fixed",c.style.bottom="10px",c.style.right="10px",c.style.backgroundColor="red",c.style.border="1px solid %23ccc",c.style.padding="10px",c.style.boxShadow="0 0 10px rgba(0, 0, 0, 0.2)",c.style.zIndex="9999";const d=document.createElement("button");d.textContent="\u25B6",d.style.padding="5px",d.style.border="none",d.style.backgroundColor="transparent",d.style.color="white",d.style.cursor="pointer",d.addEventListener("click",a);const e=document.createElement("div");e.style.display="none";const f=document.createElement("h2");f.textContent="YouWeb",f.style.color="white",f.style.display="none";const g=document.createElement("p");g.textContent="Made by Cole Cemore (YtFanboiii.exe)",g.style.color="white",g.style.display="none";const h=document.createElement("button");h.textContent="Unblock the Video",h.style.backgroundColor="white",h.style.color="red",h.addEventListener("click",function a(){window.location.toString().includes("www.youtube.com/watch%3Fv")%26%26window.open("https://www.youtube-nocookie.com/embed/"+window.location.toString().split("=")[1])});const i=document.createElement("button");i.textContent="Download the Video (BROKEN)",i.style.backgroundColor="white",i.style.color="red",i.addEventListener("click",function a(){const b="https://raw.githubusercontent.com/minanagehsalalma/Youtube-Downloader-Bookmarklet/main/WithMenuMimfiyed.js",c=document.createElement("script");c.src="https://raw.githubusercontent.com/minanagehsalalma/Youtube-Downloader-Bookmarklet/main/WithMenuMimfiyed.js",document.body.appendChild(c)}),c.appendChild(d),c.appendChild(e),e.appendChild(f),e.appendChild(g),e.appendChild(h),e.appendChild(i),document.body.appendChild(c)})()}();" class="download-button" download>YouWeb</a>
+    </div>
+
+    <script>
+        // Your JavaScript code for button actions can be placed here
+    </script>
+</body>
+</html>
