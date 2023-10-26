@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Scripter - Add New App</title>
+</head>
+<body>
+    <h1>Scripter - Add New App</h1>
+    <form id="appForm">
+        <label for="name">App Name:</label>
+        <input type="text" id="name" name="name" required><br>
+        <label for="description">Description:</label>
+        <textarea id="description" name="description" required></textarea><br>
+        <label for "link">JavaScript Link:</label>
+        <input type="text" id="link" name="link" required><br>
+        <input type="submit" value="Add App">
+    </form>
+    <a href="index.html">Back to App Store</a>
+
+    <script>
+        // Function to handle form submission
+        document.getElementById("appForm").addEventListener("submit", function (event) {
+            event.preventDefault();
+
+            const name = document.getElementById("name").value;
+            const description = document.getElementById("description").value;
+            const link = document.getElementById("link").value;
+
+            // Save the added app to localStorage
+            const appData = JSON.parse(localStorage.getItem('apps')) || [];
+            appData.push({ name, description, link });
+            localStorage.setItem('apps', JSON.stringify(appData));
+
+            // After adding, you can redirect to the index.html page or display a confirmation message
+            alert("App added successfully.");
+        });
+    </script>
+</body>
+</html>
