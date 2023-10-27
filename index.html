@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Change the title text color in Firefox */
+        @-moz-document url-prefix() {
+            /* Change the title text color to white */
+            *|*:root {
+                color: white !important;
+            }
+        }
+        /* Other CSS styles for your document */
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            padding-bottom: 200px; /* Added padding to make space for the profiles at the bottom */
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+        }
+        .logo {
+            display: flex; /* To display the logo and text side by side */
+            align-items: center;
+        }
+        .logo img {
+            margin-right: 10px; /* Add some spacing between the logo and text */
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+        }
+        nav ul li {
+            margin-right: 20px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #fff;
+        }
+        .main-content {
+            text-align: center;
+            padding: 40px;
+        }
+        .buttons {
+            margin: 20px 0;
+        }
+        .buttons a {
+            display: block;
+            background-color: #007BFF;
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin: 10px;
+        }
+        footer {
+            background-color: #000;
+            padding: 20px;
+            text-align: center;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            color: #fff;
+        }
+        footer a {
+            text-decoration: none;
+            color: #007BFF;
+        }
+        /* New styles for the profile boxes at the bottom */
+        .profile-box {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 20px;
+            background-color: #007BFF; /* Blue background */
+            padding: 10px;
+            border-radius: 20px; /* Increased corner radius */
+        }
+        .profile-picture-small {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 20px;
+        }
+        .profile-info {
+            flex: 1;
+            color: #fff;
+        }
+        .profile-name {
+            font-size: 20px;
+            margin: 0;
+        }
+        .profile-description {
+            margin: 5px 0;
+        }
+        .profile-link {
+            text-decoration: none;
+            color: #fff;
+        }
+    </style>
+    <title>YtFanboiii.exe's website</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://ytfanboiii.exe.github.io/icons/IMG_6241.jpg" alt="TikToker's Logo">
+            <span>YtFanboiii.exe</span> <!-- Added the text next to the logo -->
+        </div>
+        <nav>
+            <ul>
+                <li><a href="https://ytfanboiiiexe.github.io/index.html">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main-content">
+        <div class="buttons">
+            <a href="https://discord.gg/UywEyKVHf6">Discord server</a>
+        </div>
+    </main>
+    <!-- New profile boxes at the bottom -->
+    <section id="profiles">
+        <div class="profile-box">
+            <img class="profile-picture-small" src="https://ytfanboiii.exe.github.io/icons/IMG_6240.jpg" alt="Profile Picture 1">
+            <div class="profile-info">
+                <h2 class="profile-name">little_man113</h2>
+                <p class="profile-description">Good friend</p>
+                <a class="profile-link" href="#link1">His TikTok</a>
+            </div>
+        </div>
+        <div class="profile-box">
+            <img class="profile-picture-small" src="https://ytfanboiii.exe.github.io/icons/IMG_6241.jpg" alt="pfp">
+            <div class="profile-info">
+                <h2 class="profile-name">OfficialYtFanboiii.exe.b</h2> <!-- Added content for Name 2 -->
+                <p class="profile-description">My 2nd account</p>
+                <a class="profile-link" href="#link2">Check it out</a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
