@@ -1,88 +1,35 @@
 {
     "RepositoryName": "YtFanboiii.exe's beta repo",
-    "RepositoryDescription": "A few cool tweaks here and there",
+    "RepositoryDescription": "Cool MDC/KFD Tweaks (beta)",
     "RepositoryAuthor": "YtFanboiii.exe",
     "RepositoryIcon": "https://raw.githubusercontent.com/YtFanboiiiExe/YtFanboiiiExe.github.io/main/icons/IMG_6241.jpg",
-    "RepositoryWebsite": "https://YtFanboiiiExe.github.io",
-    "DefaultHeaderImage": "https://raw.githubusercontent.com/YtFanboiiiExe/YtFanboiiiExe.github.io/main/icons/IMG_6241.jpg",
+    "RepositoryWebsite": "https://ytfanboiiiexe.github.io/misakarepos/beta.json",
+    "DefaultHeaderImage": "https://raw.githubusercontent.com/YtFanboiiiExe/YtFanboiiiExe.github.io/main/icons/IMG_E5527.JPG",
     "RepositoryContents": [
-	
-	{
-          "Name": "Comic Sans MS",
-          "Description": "The best font",
-          "Author": {
-              "Label": "LeminLimez",
-              "Links": [
-                  {
-                      "Label": "LeminLimez",
-                      "Link": "https://github.com/leminlimez"
-                  }
-              ]
-          },
-          "Icon": "https://media.discordapp.net/attachments/654089463697506306/1089583127803998440/thumbnail.jpg",
-          "Category": "Fonts",
-          "Caption": "Ever wanted to see the best font in the world on your phone? This time it is ported correctly, with headers working properly.",
-          "Screenshot": ["https://media.discordapp.net/attachments/1088417197455589446/1089581497129893918/IMG_0016.PNG"],
-          "Releases": [
-              {
-                  "Version": "1.0",
-                  "Package": "https://cdn.discordapp.com/attachments/1088417197455589446/1089584478713811014/Comic_Sans_MS_Font.misaka",
-                  "Description": "initial release"
-              }
-          ],
-          "PackageID": "com.leemin.comicsans"
-      },
-    
-    {
-          "Name": "Huawei P30 Pro",
-          "Description": "Change your model name",
-          "Author": {
-              "Label": "LeminLimez",
-              "Links": [
-                  {
-                      "Label": "LeminLimez",
-                      "Link": "https://github.com/leminlimez"
-                  }
-              ]
-          },
-          "Icon": "https://media.discordapp.net/attachments/654089463697506306/1089613555428491264/android-icon-logo-DB06FA8B39-seeklogo.png?width=600&height=600",
-          "Category": null,
-          "Caption": "Changes your device's model name to a Huawei P30 Pro in settings.",
-          "Screenshot": ["https://media.discordapp.net/attachments/654089463697506306/1089613198975582318/IMG_0017.jpg"],
-          "Releases": [
-              {
-                  "Version": "1.0",
-                  "Package": "https://cdn.discordapp.com/attachments/654089463697506306/1089613199202078790/Huawei_P30_Pro.misaka",
-                  "Description": "initial release"
-              }
-          ],
-          "PackageID": "com.leemin.huaweip30pro"
-      },
-    
-    {
-          "Name": "FnafHacker",
-          "Description": "Cheat in the fnaf games",
-          "Author": {
-              "Label": "YtFanboiii.exe",
-              "Links": [
-                  {
-                      "Label": "Project Page",
-                      "Link": "https://YtFanboiiiExe.github.io/fnafhacker"
-                  }
-              ]
-          },
-          "Icon": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/cc2672ed-3c69-461c-9f44-7e36253f90e1/de31r8t-7d562ba5-6084-4b77-98c2-82c94ed15ab4.png/v1/fill/w_1024,h_1024,q_80,strp/fnaf_1_icon_recreation_by_zerodigitalartsymore_de31r8t-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTAyNCIsInBhdGgiOiJcL2ZcL2NjMjY3MmVkLTNjNjktNDYxYy05ZjQ0LTdlMzYyNTNmOTBlMVwvZGUzMXI4dC03ZDU2MmJhNS02MDg0LTRiNzctOThjMi04MmM5NGVkMTVhYjQucG5nIiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.vJJ5YCBFEGVeE0ryRHAxq0b6_JBACf9dPENoez1H0Is",
-          "Category": Games,
-          "Caption": "Save file modifier so you can skip nights and unlock everything in every game",
-          "Screenshot": null,
-          "Releases": [
-              {
-                  "Version": "1.0",
-                  "Package": "https://github.com/YtFanboiiiExe/YtFanboiiiExe.github.io/raw/main/misakarepos/FnafHacker.misaka",
-                  "Description": "initial release"
-              }
-          ],
-          "PackageID": "com.leemin.samsungdiscordping"
-      }
-	     ]
+        {
+            "Name": "FnafHacker",
+            "Description": "cheat for five nights at freddys",
+            "Author": {
+                "Label": "YtFanboiii.exe",
+                "Links": [
+                    {
+                        "Label": "Follow me on tiktok",
+                        "Link": "https://www.tiktok.com/@ytfanboiii.exe?is_from_webapp=1&sender_device=pc"
+                    }
+                ]
+            },
+            "Icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtqNq9MEhDyeFGL6jz4duMcc87rkNx-WhsBHaPAuk-Cw&s",
+            "Category": "Games",
+            "Caption": "Hack every fnaf game available on iOS",
+            "Screenshot": ["https://raw.githubusercontent.com/YtFanboiiiExe/YtFanboiiiExe.github.io/main/icons/IMG_5528.PNG"],
+            "Releases": [
+                {
+                    "Version": "1.0",
+                    "Package": "https://raw.githubusercontent.com/YtFanboiiiExe/YtFanboiiiExe.github.io/main/misakarepos/beta/FnafHacker.misaka",
+                    "Description": "Initial release"
+                }
+            ],
+            "PackageID": "com.exe.fnafhack"
+        }
+    ]
 }
