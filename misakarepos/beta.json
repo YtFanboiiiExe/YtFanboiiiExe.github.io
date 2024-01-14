@@ -8,19 +8,19 @@
     "RepositoryContents": [
         {
             "Name": "FnafHacker",
-            "Description": "cheat for five nights at freddys",
+            "Description": "Cheat for Five Nights at Freddy's",
             "Author": {
                 "Label": "YtFanboiii.exe",
                 "Links": [
                     {
-                        "Label": "Follow me on tiktok",
+                        "Label": "Follow me on TikTok",
                         "Link": "https://www.tiktok.com/@ytfanboiii.exe?is_from_webapp=1&sender_device=pc"
                     }
                 ]
             },
             "Icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtqNq9MEhDyeFGL6jz4duMcc87rkNx-WhsBHaPAuk-Cw&s",
             "Category": "Games",
-            "Caption": "Hack every fnaf game available on iOS",
+            "Caption": "Hack every FNAF game available on iOS",
             "Screenshot": ["https://raw.githubusercontent.com/YtFanboiiiExe/YtFanboiiiExe.github.io/main/icons/IMG_5528.PNG"],
             "Releases": [
                 {
@@ -30,6 +30,26 @@
                 }
             ],
             "PackageID": "com.exe.fnafhack"
+        },
+        {
+            "Name": "RobloxOOF",
+            "Description": "Roblox OOF sound, Restored",
+            "Author": {
+                "Label": "YtFanboiii.exe",
+                "Links": [
+                    {
+                        "Label": "Follow me on TikTok",
+                        "Link": "https://www.tiktok.com/@ytfanboiii.exe?is_from_webapp=1&sender_device=pc"
+            },
+            "Icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsD9hnNBeywzt3qnxtxGNbkWdEooWVQ--6dg&usqp=CAU",
+            "Releases": [
+                {
+                    "Version": "1.0.1",
+                    "Package": "https://github.com/YtFanboiiiExe/YtFanboiiiExe.github.io/raw/main/misakarepos/beta/com.exe.oof.misaka",
+                    "Description": "Initial release"
+                }
+            ],
+            "PackageID": "com.exe.oof"
         }
     ]
 }
