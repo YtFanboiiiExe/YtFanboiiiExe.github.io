@@ -47,6 +47,31 @@
                 }
             ],
             "PackageID": "com.exe.oof"
+        },
+        {
+            "Name": "TubeCC",
+            "Description": "Youtube, In ControlCenter",
+            "Author": {
+                "Label": "YtFanboiii.exe",
+                "Links": [
+                    {
+                        "Label": "Follow me on TikTok",
+                        "Link": "https://tiktok.com/@ytfanboiii.exe"
+                    }
+                ]
+            },
+            "Icon": "data:image/png;base64,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",
+            "Category": "Control Center",
+            "Caption": "Add Youtube to the control center with the youtube icon and everything",
+            "Screenshot": ["https://raw.githubusercontent.com/YtFanboiiiExe/YtFanboiiiExe.github.io/main/icons/IMG_E5556.JPG", "https://raw.githubusercontent.com/YtFanboiiiExe/YtFanboiiiExe.github.io/main/icons/IMG_E5557.JPG"],
+            "Releases": [
+                {
+                    "Version": "1.0",
+                    "Package": "https://github.com/YtFanboiiiExe/YtFanboiiiExe.github.io/raw/main/misakarepos/beta/com.exe.tubecc.misaka",
+                    "Description": "Initial release"
+                }
+            ],
+            "PackageID": "com.exe.tubecc"
         }
     ]
 }
