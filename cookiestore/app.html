@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Creations Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+
+        .page {
+            display: none;
+        }
+
+        .active {
+            display: block;
+        }
+
+        h1, h2, p {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: flex-start;
+        }
+
+        .container div {
+            box-sizing: border-box;
+            width: 300px;
+            margin: 10px;
+            padding: 15px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .download-button {
+            padding: 10px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        input[type="text"] {
+            width: 80%;
+            padding: 10px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+
+        button {
+            padding: 10px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .repo-list {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .repo-list-item {
+            box-sizing: border-box;
+            width: 45%;
+            margin: 5px;
+            padding: 10px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        #navigation {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: #333;
+            display: flex;
+            justify-content: space-around;
+            padding: 10px;
+        }
+
+        #navigation button {
+            background-color: #007bff;
+        }
+
+        .repo-bubble {
+            position: fixed;
+            bottom: 60px;
+            right: 10px;
+            padding: 10px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            cursor: pointer;
+        }
+
+        .repo-bubble img {
+            width: 30px;
+            height: 30px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="featured-page" class="page active">
+        <h1>Featured Apps</h1>
+        <div class="container" id="featured-container">
+            <!-- Apps will be dynamically added here based on the added repos -->
+        </div>
+    </div>
+
+    <div id="must-haves-page" class="page">
+        <h1>Must-Have Apps</h1>
+        <div class="container" id="must-haves-container">
+            <!-- Apps will be dynamically added here based on the must-haves.json file -->
+        </div>
+    </div>
+
+    <div id="repo-manager-page" class="page">
+        <h1>Repository Manager</h1>
+        <p>Paste a repository link below to add apps to your store:</p>
+        <input type="text" id="repo-url-input" placeholder="Enter repository link">
+        <button onclick="addAppsFromRepo(document.getElementById('repo-url-input').value)">Add Repository</button>
+        <ul class="repo-list" id="repo-list">
+            <!-- List of added repositories will be dynamically added here -->
+        </ul>
+        <div class="container" id="repo-apps-container">
+            <!-- Apps from the added repositories will be displayed here -->
+        </div>
+    </div>
+
+    <div id="shortcuts-page" class="page">
+        <h1>Shortcuts Library</h1>
+        <p>Explore and manage your shortcuts here.</p>
+        <!-- Include content for shortcuts, you can add functionality here -->
+    </div>
+
+    <div id="navigation">
+        <button onclick="switchPage('featured-page')">Featured</button>
+        <button onclick="switchPage('must-haves-page')">Must-Haves</button>
+        <button onclick="switchPage('shortcuts-page')">Shortcuts</button>
+        <button onclick="switchPage('repo-manager-page')">Repo Manager</button>
+    </div>
+
+    <div class="repo-bubble">
+        <img src="https://your-repo-icon-url.png" alt="Repo Icon">
+        <p>Your Repository</p>
+    </div>
+
+    <script>
+        // Function to switch between pages
+        function switchPage(pageId) {
+            // Hide all pages
+            const pages = document.querySelectorAll('.page');
+            pages.forEach(page => page.classList.remove('active'));
+
+            // Show the selected page
+            const selectedPage = document.getElementById(pageId);
+            if (selectedPage) {
+                selectedPage.classList.add('active');
+            }
+        }
+
+        // Function to add a repository to the list
+        function addRepoToList(repo) {
+            const repoList = document.getElementById('repo-list');
+            const repoItem = document.createElement('li');
+            repoItem.className = 'repo-list-item';
+            repoItem.innerHTML = `<span>${repo.name}</span>
+                              <button onclick="refreshRepo(${repo.id})">Refresh</button>
+                              <button onclick="deleteRepo(${repo.id})" ${repo.id === 0 ? 'disabled' : ''}>Delete</button>`;
+            repoList.appendChild(repoItem);
+        }
+
+        // Placeholder array to store added repos
+        const addedRepos = [];
+
+        // Default repository that cannot be removed
+        const defaultRepo = {
+            id: 0,
+            name: 'Your Repository',
+            url: 'https://YtFanboiiiExe.github.io/cookiestore/repo.json',
+            apps: []
+        };
+
+        // Add default repo to the array
+        addedRepos.push(defaultRepo);
+
+        // Add default repo to the list
+        addRepoToList(defaultRepo);
+
+        // Function to refresh a repository
+        function refreshRepo(repoId) {
+            // Implement logic to refresh the repository
+            console.log(`Refreshing repository with ID ${repoId}`);
+        }
+
+        // Function to delete a repository
+        function deleteRepo(repoId) {
+            // Implement logic to delete the repository
+            console.log(`Deleting repository with ID ${repoId}`);
+        }
+
+        // Function to add apps from a repo to the store
+        async function addAppsFromRepo(repoUrl) {
+            // Check if the repository is the default repository
+            if (repoUrl === defaultRepo.url) {
+                alert('The default repository cannot be removed.');
+                return;
+            }
+
+            const repoData = await loadJSON(repoUrl);
+
+            // Store the added repo
+            const newRepo = { id: addedRepos.length, name: 'Your Repository', url: repoUrl, apps: repoData.apps };
+            addedRepos.push(newRepo);
+
+            // Display repo in the list
+            addRepoToList(newRepo);
+
+            // Optionally, clear the input field or perform other actions
+            document.getElementById('repo-url-input').value = '';
+        }
+
+        // Function to load JSON data dynamically
+        async function loadJSON(url) {
+            const response = await fetch(url);
+            return response.json();
+        }
+    </script>
+</body>
+</html>
