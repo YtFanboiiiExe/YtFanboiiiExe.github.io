@@ -1,0 +1,15 @@
+{
+  "featuredApps": [
+    {
+      "id": "random-id-1",
+      "icon": "app1-icon-url.png",
+      "name": "App 1"
+    },
+    {
+      "id": "random-id-2",
+      "icon": "app2-icon-url.png",
+      "name": "App 2"
+    },
+    // Add more featured apps as needed
+  ]
+}
