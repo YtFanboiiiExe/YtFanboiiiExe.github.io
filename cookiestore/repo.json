@@ -1,0 +1,35 @@
+{
+  "repoName": "My Awesome Repo",
+  "repoImage": "repo-image-url.jpg",
+  "apps": [
+    {
+      "id": "random-id-1",
+      "name": "App 1",
+      "icon": "app1-icon-url.png",
+      "description": "Description for App 1.",
+      "category": "Games",
+      "version": "1.0",
+      "beta": 0,
+      "shortcut": 0,
+      "downloadLinks": {
+        "altstore": "altstore-download-url-for-app1.ipa",
+        "trollstore": "trollstore-download-url-for-app1.ipa"
+      }
+    },
+    {
+      "id": "random-id-2",
+      "name": "App 2",
+      "icon": "app2-icon-url.png",
+      "description": "Description for App 2.",
+      "category": "Utilities",
+      "version": "2.1",
+      "beta": 1,
+      "shortcut": 1,
+      "downloadLinks": {
+        "altstore": "altstore-download-url-for-app2.ipa",
+        "trollstore": "trollstore-download-url-for-app2.ipa"
+      }
+    },
+    // Add more apps as needed
+  ]
+}
