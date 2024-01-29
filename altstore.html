@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AltStore Beta Download URL</title>
+</head>
+<body>
+
+<script>
+  // Sample JSON data (replace with your actual JSON data)
+  const jsonData = {
+    "apps": [
+      {
+        "name": "AltStore",
+        "bundleIdentifier": "com.rileytestut.AltStore",
+        // ... (other app details)
+      },
+      {
+        "name": "AltStore Beta",
+        "bundleIdentifier": "com.rileytestut.AltStore.Beta",
+        "versions": [
+          {
+            "version": "2.0b7",
+            "downloadURL": "https://cdn.altstore.io/file/altstore/apps/altstore/2_0_b7.ipa",
+            // ... (other version details)
+          },
+          // ... (other versions)
+        ]
+      }
+    ]
+  };
+
+  // Function to get the beta download URL
+  function getBetaDownloadURL(bundleIdentifier) {
+    const betaApp = jsonData.apps.find(app => app.bundleIdentifier === bundleIdentifier);
+    if (betaApp && betaApp.versions && betaApp.versions.length > 0) {
+      return betaApp.versions[0].downloadURL; // Assuming you want the first version
+    }
+    return null; // Return null if no matching data found
+  }
+
+  // Usage example
+  const bundleIdentifier = "com.rileytestut.AltStore.Beta";
+  const betaDownloadURL = getBetaDownloadURL(bundleIdentifier);
+
+  // Display the result
+  if (betaDownloadURL) {
+    document.body.innerHTML = `<p>Beta Download URL: <a href="${betaDownloadURL}" target="_blank">${betaDownloadURL}</a></p>`;
+  } else {
+    document.body.innerHTML = "<p>No beta download URL found.</p>";
+  }
+</script>
+
+</body>
+</html>
