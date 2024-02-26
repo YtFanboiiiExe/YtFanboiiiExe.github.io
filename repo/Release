@@ -1,8 +1,8 @@
-Origin: Reposi3
-Label: Reposi3
+Origin: YtFanboiiiExe
+Label: YtFanboiiiExe's repo
 Suite: stable
 Version: 1.0
 Codename: ios
-Architectures: iphoneos-arm
+Architectures: iphoneos-arm64
 Components: main
-Description: Reposi3 - a cydia repo template
+Description: My tweak ports and more...
