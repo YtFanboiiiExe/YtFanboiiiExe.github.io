@@ -1,29 +1,28 @@
 Package: com.ytfanboiiiexe.chromahomebarx
-Version: 2.0.0-1
-Section: Tweaks
+Version: 0.4
+Section: Derootifier
 Maintainer: YtFanboiii.exe
 Depends: firmware (>11.0), mobilesubstrate
 Architecture: iphoneos-arm64
 Filename: https://github.com/YtFanboiiiExe/YtFanboiiiExe.github.io/raw/main/repo/debs/chromahomebarx.deb
 Size: -1
 MD5sum: 85a01c41aaaa72b48b08d9d0a67f3016
-Description: This is a sample new package. Firmware should be greater than 7.0
+Description: Razer chroma home bar
 Name: ChromaHomeBarX (rootless)
 Author: afnanahmad
 
-Package: com.supermamon.oldpackage
-Version: 1.0.0-1
-Section: Tweaks
-Maintainer: Reposi3 <reposithree@gmail.com>
-Depends: firmware (<7.0)
-Architecture: iphoneos-arm
-Filename: ./debs/com.supermamon.oldpackage_1.0.0-1_iphoneos-arm.deb
+Package: com.ytfanboiiiexe.snoverlay2
+Version: 1.0.1
+Section: Xinamine
+Maintainer: YtFanboiii.exe
+Depends: firmware (<16.0)
+Architecture: iphoneos-arm64
+Filename: https://github.com/YtFanboiiiExe/YtFanboiiiExe.github.io/raw/main/repo/debs/snoverlay2.deb
 Size: 860
 MD5sum: 8c606f0c05217aa2a20949091fe516f0
-Description: This is a sample old package. Firmware should be lower than 7.0
-Name: Old Package
-Author: Reposi3 <reposithree@gmail.com>
-Depiction: https://supermamon.github.io/Reposi3/depictions/?p=com.supermamon.oldpackage
+Description: Make it snow
+Name: Snoverlay 2
+Author: Ryan Nair
 
 Package: com.example.cooltheme
 Version: 1.5.0-1
@@ -37,7 +36,6 @@ MD5sum: b4f1c2e9b4f356a7916b14079d1e1a9e
 Description: A sleek and modern theme for iOS devices.
 Name: CoolTheme
 Author: ThemeMaster <thememaster@example.com>
-Depiction: https://example.com/themes/cooltheme
 
 Package: com.dev.batterysaver
 Version: 3.2.1-1
@@ -51,7 +49,6 @@ MD5sum: cef30f7d3d98a6f157d3d8725184f1bd
 Description: Improve your device's battery life with this handy utility.
 Name: BatterySaver
 Author: BatteryTech <batterytech@example.com>
-Depiction: https://example.com/batterysaver
 
 Package: com.tools.photoeditorpro
 Version: 2.0.0-1
@@ -65,7 +62,6 @@ MD5sum: d75fa4d843918428dfc3e01a48bb76f4
 Description: Enhance your photos with professional editing tools.
 Name: PhotoEditorPro
 Author: PhotoTech <phototech@example.com>
-Depiction: https://example.com/photoeditorpro
 
 Package: com.protect.securitylock
 Version: 1.2.0-1
@@ -79,7 +75,6 @@ MD5sum: 69d17fb5f144d58c3f0baf2df5024c4a
 Description: Secure your device with advanced locking features.
 Name: SecurityLock
 Author: SecurityTech <securitytech@example.com>
-Depiction: https://example.com/securitylock
 
 Package: com.audio.musicEqualizer
 Version: 2.1.0-1
@@ -93,4 +88,3 @@ MD5sum: 9273baf60d9e9d50785817f31607af1b
 Description: Customize your music listening experience with equalizer presets.
 Name: MusicEqualizer
 Author: AudioTech <auditech@example.com>
-Depiction: https://example.com/musicequalizer
