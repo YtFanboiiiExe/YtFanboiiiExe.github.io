@@ -26,3 +26,72 @@ Name: Old Package
 Author: Reposi3 <reposithree@gmail.com>
 Depiction: https://supermamon.github.io/Reposi3/depictions/?p=com.supermamon.oldpackage
 
+Package: com.example.cooltheme
+Version: 1.5.0-1
+Section: Themes
+Maintainer: ThemeMaster <thememaster@example.com>
+Depends: winterboard, firmware (>=9.0)
+Architecture: iphoneos-arm64
+Filename: ./debs/com.example.cooltheme_1.5.0-1_iphoneos-arm64.deb
+Size: 1200
+MD5sum: b4f1c2e9b4f356a7916b14079d1e1a9e
+Description: A sleek and modern theme for iOS devices.
+Name: CoolTheme
+Author: ThemeMaster <thememaster@example.com>
+Depiction: https://example.com/themes/cooltheme
+
+Package: com.dev.batterysaver
+Version: 3.2.1-1
+Section: Utilities
+Maintainer: BatteryTech <batterytech@example.com>
+Depends: mobilesubstrate, firmware (>=8.0)
+Architecture: iphoneos-arm
+Filename: ./debs/com.dev.batterysaver_3.2.1-1_iphoneos-arm.deb
+Size: 980
+MD5sum: cef30f7d3d98a6f157d3d8725184f1bd
+Description: Improve your device's battery life with this handy utility.
+Name: BatterySaver
+Author: BatteryTech <batterytech@example.com>
+Depiction: https://example.com/batterysaver
+
+Package: com.tools.photoeditorpro
+Version: 2.0.0-1
+Section: Photography
+Maintainer: PhotoTech <phototech@example.com>
+Depends: firmware (>=10.0)
+Architecture: iphoneos-arm64
+Filename: ./debs/com.tools.photoeditorpro_2.0.0-1_iphoneos-arm64.deb
+Size: 1450
+MD5sum: d75fa4d843918428dfc3e01a48bb76f4
+Description: Enhance your photos with professional editing tools.
+Name: PhotoEditorPro
+Author: PhotoTech <phototech@example.com>
+Depiction: https://example.com/photoeditorpro
+
+Package: com.protect.securitylock
+Version: 1.2.0-1
+Section: Security
+Maintainer: SecurityTech <securitytech@example.com>
+Depends: mobilesubstrate, firmware (>=9.0)
+Architecture: iphoneos-arm
+Filename: ./debs/com.protect.securitylock_1.2.0-1_iphoneos-arm.deb
+Size: 1050
+MD5sum: 69d17fb5f144d58c3f0baf2df5024c4a
+Description: Secure your device with advanced locking features.
+Name: SecurityLock
+Author: SecurityTech <securitytech@example.com>
+Depiction: https://example.com/securitylock
+
+Package: com.audio.musicEqualizer
+Version: 2.1.0-1
+Section: Multimedia
+Maintainer: AudioTech <auditech@example.com>
+Depends: firmware (>=8.0)
+Architecture: iphoneos-arm64
+Filename: ./debs/com.audio.musicEqualizer_2.1.0-1_iphoneos-arm64.deb
+Size: 1150
+MD5sum: 9273baf60d9e9d50785817f31607af1b
+Description: Customize your music listening experience with equalizer presets.
+Name: MusicEqualizer
+Author: AudioTech <auditech@example.com>
+Depiction: https://example.com/musicequalizer
