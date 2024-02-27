@@ -2,13 +2,28 @@ Package: com.ytfanboiiiexe.chromahomebarx
 Name: ChromaHomeBarX
 Version: 0.1
 Architecture: iphoneos-arm64
-Description: Razer Chroma inspired HomeBarr coloring tweak for iPhone X, also works with LittleX
+Description: Razer Chroma inspired HomeBar coloring tweak for iPhone X, also works with LittleX
 Maintainer: YtFanboiii.exe
 Author: Afnan Ahmad
 Section: rootless ports
 Depends: 
-Filename: https://github.com/YtFanboiiiExe/YtFanboiiiExe.github.io/raw/main/repo/debs/chromahomebarx.deb
-Size: -1 
+Filename: https://YtFanboiiiExe.github.io/repo/debs/chromahomebarx.deb
+Size:  119536
 MD5sum: 1b669d7a49cff4851b995c505b0f0999
 SHA1: 91E6C653B7D058C598FC1116F27EA4EFF9EBF664
 SHA256: D1B435B4A061E6AFE58C282AB77A2FE96764E4309E5219FC7554E983D5E8726E
+
+Package: com.ytfanboiiiexe.snoverlay2
+Name: ChromaHomeBarX
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Description: Let it snow!
+Maintainer: YtFanboiii.exe
+Author: Ryan Nair
+Section: rootless ports
+Depends: 
+Filename: https://YtFanboiiiExe.github.io/repo/debs/snowverlay2.deb
+Size:  105464
+MD5sum: 3946bb1c532f5728ae247f2f30f3ef1c
+SHA1: D028489F8ED46BE0A8E9A76C9A4BB5CE55E61C34
+SHA256: 9A977D043F604B7E63029B1AEB9506C4DF0C6F03DE7CCEE2C604699A3C1B02F8
