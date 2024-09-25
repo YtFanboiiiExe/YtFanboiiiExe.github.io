@@ -1,18 +1,18 @@
 [
     {
         "name": "Five Nights at Freddy's",
-        "downloadURL": "apple-magnifier://install?url=https://github.com/YtFanboiiiExe/aixserver/releases/download/1.x/1.ipa",
+        "downloadURL": "https://example.com/download1.ipa",
         "minIOSVersion": "iOS 14.0",
         "maxIOSVersion": null,
         "supportedVersions": "iOS 14.0 and above",
-        "description": "This is the original port of five nights at freddys 1 before the remaster that made it like the PC version."
+        "description": "This is the original port of five nights at freddy's."
     },
     {
         "name": "Five Nights at Freddy's 4",
-        "downloadURL": "apple-magnifier://install?url=https://github.com/YtFanboiiiExe/aixserver/releases/download/1.x/1.ipa",
+        "downloadURL": "https://example.com/download2.ipa",
         "minIOSVersion": "iOS 14.0",
-        "maxIOSVersion": "iOS 16.0",
-        "supportedVersions": "iOS 14.0 to 15.x (not compatible with iOS 16 or newer)",
-        "description": "This is the original port of five nights at freddys 4. !!WILL NOT WORK ON IOS 16 AND NEWER!!"
+        "maxIOSVersion": "iOS 15.0",
+        "supportedVersions": "iOS 14.0 to 15.0",
+        "description": "This is the original port of five nights at freddy's 4."
     }
 ]
