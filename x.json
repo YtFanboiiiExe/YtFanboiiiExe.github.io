@@ -15,5 +15,12 @@
         "maxIOSVersion": "15.8.4",
         "supportedVersions": "Supports up to iOS 14 and 15",
         "description": "This is the original port of Five Nights at Freddy's 4."
-    }
+        },
+    {
+        "id": "3",
+        "name": "Wheres my water?",
+        "downloadURL": "apple-magnifier://install?url=https://github.com/ytfanboiiiexe/aixserver/releases/download/1.x/two.ipa",
+        "minIOSVersion": "14.0",
+        "supportedVersions": "All versions",
+        "description": "This isnt really that old as its still on the appstore but i still put it here anyways😒."
 ]
