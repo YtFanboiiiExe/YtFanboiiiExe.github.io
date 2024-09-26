@@ -1,18 +1,20 @@
 [
     {
+        "id": "1",
         "name": "Five Nights at Freddy's",
-        "downloadURL": "https://example.com/download1.ipa",
-        "minIOSVersion": "iOS 14.0",
-        "maxIOSVersion": null,
-        "supportedVersions": "iOS 14.0 and above",
-        "description": "This is the original port of five nights at freddy's."
+        "downloadURL": "apple-magnifier://install?url=https://example.com/1.ipa",
+        "minIOSVersion": "14.0",
+        "maxIOSVersion": "15.0",
+        "supportedVersions": "iOS 14.0 to 15.0",
+        "description": "This is the original port of Five Nights at Freddy's 1."
     },
     {
+        "id": "2",
         "name": "Five Nights at Freddy's 4",
-        "downloadURL": "https://example.com/download2.ipa",
-        "minIOSVersion": "iOS 14.0",
-        "maxIOSVersion": "iOS 15.0",
+        "downloadURL": "apple-magnifier://install?url=https://example.com/2.ipa",
+        "minIOSVersion": "14.0",
+        "maxIOSVersion": "15.0",
         "supportedVersions": "iOS 14.0 to 15.0",
-        "description": "This is the original port of five nights at freddy's 4."
+        "description": "This is the original port of Five Nights at Freddy's 4."
     }
 ]
