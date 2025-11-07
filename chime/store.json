@@ -1,0 +1,12 @@
+{
+  "apps": [
+    {
+      "id": "firefox",
+      "name": "Firefox",
+      "description": "Web browser",
+      "icon_url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Firefox_logo%2C_2019.svg",
+      "installer_url": "https://example.com/installers/firefox_install.bat",
+      "installer_sha256": "9f2b... (hex lower-case, full 64 chars)",
+    }
+  ]
+}
