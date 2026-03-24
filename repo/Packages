@@ -8,7 +8,39 @@ Author: jailbreak365
 Section: Rootless CC Tweaks
 Depends: xyz.cypwn.xinam1ne
 Filename: debs/com.jailbreak365.safeccmodules.deb
-Size:  1129164
+Size: 1129164
 MD5sum: feca22b63a9d71e36700e8563cc35dce
 SHA1: 41aa283dc35d440ded7d5147c4e6f2e24b107e79
 SHA256: 03c1b524cc503444464fb50c77e4b901c71098e963772964005e3e9ec2cd0a99
+
+
+Package: xyz.cypwn.darkpapersaio
+Name: DarkPapers AIO
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Description: Adds 50+ wallpapers to your wallpapers. Only tested on iOS 15
+Maintainer: YtFanboiii.exe
+Author: alex_png
+Section: Rootless wallpaper tweaks
+Depends: xyz.cypwn.xinam1ne, xyz.cypwn.wallpaperloader
+Filename: https://github.com/YtFanboiiiExe/YtFanboiiiExe.github.io/releases/download/pookie/xyz.cypwn.darkpapersaio_1.0.1_iphoneos-arm64.deb
+Size: 227440436
+MD5sum: 87a7473eb34d22942659d721893e5be9
+SHA1: 467983797ebb22432f1df4cb6a5910d60ef13cbe
+SHA256: 3e48648b2603df5f7bcb48f4a3aa944fcc22bc46246ebe53bb71fc5600bed81b
+
+
+Package: xyz.cypwn.wallpaperloader
+Name: WallpaperLoader
+Version: 1.1.1
+Architecture: iphoneos-arm64
+Description: an awesome mobilesubstrate tweak!
+Maintainer: YtFanboiii.exe
+Author: Skitty
+Section: Rootless deps
+Depends: xyz.cypwn.xinam1ne
+Filename: debs/xyz.cypwn.wallpaperloader.deb
+Size: 12300
+MD5sum: f673d60491d05ed93e81dea0930f90e6
+SHA1: 7b598ca6ea566ff173d3cad96281272f015b6530
+SHA256: 1919780861157d44465931a75bce161f1144c9608601de793805335de686e337
