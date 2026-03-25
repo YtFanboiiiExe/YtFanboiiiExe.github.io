@@ -80,7 +80,7 @@ SHA256: ede4cd9921bad53954a4be3de753bac2e19e63feb085cee2ec4f56f2262bafe1
 
 
 Package: com.dpkg.ccolor
-Name: WallpaperLoader
+Name: CColor
 Version: 1.0-1
 Architecture: iphoneos-arm64
 Description: an awesome mobilesubstrate tweak!
