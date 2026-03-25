@@ -44,3 +44,68 @@ Size: 12300
 MD5sum: f673d60491d05ed93e81dea0930f90e6
 SHA1: 7b598ca6ea566ff173d3cad96281272f015b6530
 SHA256: 1919780861157d44465931a75bce161f1144c9608601de793805335de686e337
+
+
+Package: com.boo.scribble
+Name: Scribble
+Version: 2.1
+Architecture: iphoneos-arm64
+Description: Unlock your device with a scribble!
+Maintainer: YtFanboiii.exe
+Author: Boo
+Section: Rootless Passcode tweaks
+Depends: xyz.cypwn.xinam1ne, com.boo.libscribble
+Filename: debs/com.boo.scribble.deb
+Size: 41916
+MD5sum: 925b550a43e68822faa6f1f674387bfa
+SHA1: cf45502bab11f6813d792101609ca1e904737918
+SHA256: bf382f49ea5fe701f647c86d75c1d8ef25fdd8499c5f405b49c3c189ea2db422
+
+
+
+Package: com.boo.libscribble
+Name: libscribble
+Version: 1.0
+Architecture: iphoneos-arm64
+Description: This is a prerequisite for the tweak Scribble. It includes the gesture logic needed for the tweak.
+Maintainer: YtFanboiii.exe
+Author: Boo
+Section: Rootless deps
+Depends: xyz.cypwn.xinam1ne
+Filename: debs/com.boo.libscribble.deb
+Size: 10180
+MD5sum: 2be5a6d43f315361b3c40b23ed331b2b
+SHA1: 97379e3d0616001968c3f541f39e8d7fe82dc0e3
+SHA256: ede4cd9921bad53954a4be3de753bac2e19e63feb085cee2ec4f56f2262bafe1
+
+
+Package: com.dpkg.ccolor
+Name: WallpaperLoader
+Version: 1.0-1
+Architecture: iphoneos-arm64
+Description: an awesome mobilesubstrate tweak!
+Maintainer: YtFanboiii.exe
+Author: dpkg_
+Section: Rootless CC Tweaks
+Depends: xyz.cypwn.xinam1ne, com.creaturesurvive.libcscolorpicker
+Filename: debs/com.dpkg.ccolor.deb
+Size: 23732
+MD5sum: 746ead5ad3db59f96d86cb7b719648c0
+SHA1: 113a6c32f2f4d2e18aca07b05701a73e7ee38812
+SHA256: 4d4d62a9c847c62342affd0e847d86c22f679c62e22cd9ab5b4126b450d6cb0d
+
+
+Package: com.creaturesurvive.libcscolorpicker
+Name: libCSColorPicker
+Version: 1.0
+Architecture: iphoneos-arm64
+Description: an awesome mobilesubstrate tweak!
+Maintainer: YtFanboiii.exe
+Author: CreatureSurvive
+Section: Rootless deps
+Depends: xyz.cypwn.xinam1ne
+Filename: debs/com.creaturesurvive.libcscolorpicker.deb
+Size: 87400
+MD5sum: 4cb680ec0c90252c120d19a9b6355262
+SHA1: 7983e3194dd77d01713e09fbe59f5e61fd6685a1
+SHA256: c4ac2a3a8ded0a49d20fa620f9b03cade59d65d593888b91d278b8d0ae38971d
