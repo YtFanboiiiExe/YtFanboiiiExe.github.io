@@ -109,3 +109,18 @@ Size: 87400
 MD5sum: 4cb680ec0c90252c120d19a9b6355262
 SHA1: 7983e3194dd77d01713e09fbe59f5e61fd6685a1
 SHA256: c4ac2a3a8ded0a49d20fa620f9b03cade59d65d593888b91d278b8d0ae38971d
+
+
+Package: com.kingclark.bluetoothhook
+Name: Bluetooth LE Advertising
+Version: 1.0b2
+Architecture: iphoneos-arm64
+Description: an awesome mobilesubstrate tweak!
+Maintainer: KingClark
+Author: KingClark
+Section: Rootless Bluetooth tweaks
+Filename: debs/bluetoothhook.deb
+Size: 20362
+MD5sum: fc632ce1a94bbf667288be2f720702f9
+SHA1: e482af17ad492bf10f4488d0b5f91a2656cbbee4
+SHA256: 49396c6f93b82e57040fa9c8c943be29c30b81f963db029a37bc2c1d8e4992d7
