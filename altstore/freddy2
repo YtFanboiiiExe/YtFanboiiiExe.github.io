@@ -1,0 +1,12 @@
+
+[]
+
+[options]
+joystickSize = 120
+
+[freddy2]
+cine = 1
+level=1
+beatgame=1
+beat6=1
+beat7=1
